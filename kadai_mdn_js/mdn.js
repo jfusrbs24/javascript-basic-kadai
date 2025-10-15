@@ -1,9 +1,9 @@
 const getDate = new Date();
 
-const getYear = getDate.getFullYear();
+const year = getDate.getFullYear();
 
-const getMonth = getDate.getMonth();
+const month = getDate.getMonth();
 
-const getDay = getDate.getDate();
+const day = getDate.getDate();
 
-console.log(getYear + '年' + getMonth + '月' + getDay + '日'); 
+console.log(year + '年' + (month + 1) + '月' + day + '日'); 
